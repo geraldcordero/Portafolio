@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.header__nav{
+    margin-top: 95px;
+}
+
+.header__item{
+    float: left;
+    margin-left: 32px;
+    list-style: none;
+}
+
+.header__link{
+    text-decoration: none;
+    color: var(--white);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: var(--textNav);
+}
