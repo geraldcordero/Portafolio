@@ -1,22 +1,33 @@
-.header{
+.header {
     display: flex;
     justify-content: end;
 }
 
-.header__nav{
-    margin-top: 95px;
+.header__nav {
+    margin-top: 50px;
 }
 
-.header__item{
+.header__item {
     float: left;
-    margin-left: 32px;
     list-style: none;
+    margin-left: 32px;
 }
 
-.header__link{
-    text-decoration: none;
+.header__link {
     color: var(--white);
     font-family: Lato;
-    font-weight: 400;
-    font-size: var(--textNav);
+    font-size: var(--textN);
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+.header__link:hover {
+    color: var(--whitehover);
+    text-decoration: underline 2px var(--whitehover);
+    transition: ease-in-out 0.1s;
+}
+
+.header__link:active {
+    color: var(--whiteactive);
+    transition: ease-in-out 0.1s;
 }

@@ -1,0 +1,118 @@
+.home {
+    display: flex;
+}
+
+.home__info {
+    margin-top: 230px;
+}
+
+.home__title {
+    color: var(--white);
+    font-family: UnifrakturMaguntia;
+    font-size: var(--title1);
+    font-weight: 100;
+}
+
+.home__text {
+    margin-bottom: 10px;
+    color: var(--white);
+    font-family: Lato;
+    font-size: var(--text);
+}
+
+.home__button-case {
+    display: flex;
+    gap: 20px;
+}
+
+.home__button {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    display: block;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    width: 100px;
+}
+
+.home__button:hover {
+    background-color: var(--whitehover);
+    scale: 0.99;
+    transition: ease-in-out 0.5s;
+}
+
+.home__button:active {
+    background-color: var(--whiteactive);
+    scale: 0.8;
+}
+
+
+.home__button--cv {
+    color: var(--black);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.home__icon {
+    width: 40px;
+}
+
+.home__img {
+    background-color: #fff;
+    position: relative;
+}
+
+.home__img-eyelid {
+    height: 400px;
+    left: 300px;
+    position: absolute;
+    top: 80px;
+    width: 400px;
+}
+
+.home__img-eye {
+    animation: Watching 15s;
+    height: 110px;
+    left: 445px;
+    position: absolute;
+    top: 215px;
+    width: 110px;
+}
+
+.home__img-eye:hover {
+    animation: temblor 0.2s infinite;
+    cursor: pointer;
+}
+
+
+/* Eye Animation */
+@keyframes Rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes temblor {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    10%  { transform: translate(-8px, 5px) rotate(-3deg); }
+    20%  { transform: translate(10px, -4px) rotate(4deg); }
+    30%  { transform: translate(-12px, 6px) rotate(-5deg); }
+    40%  { transform: translate(6px, 10px) rotate(3deg); }
+    50%  { transform: translate(-10px, -6px) rotate(-4deg); }
+    60%  { transform: translate(12px, 5px) rotate(5deg); }
+    70%  { transform: translate(-7px, -10px) rotate(-3deg); }
+    80%  { transform: translate(9px, 4px) rotate(4deg); }
+    90%  { transform: translate(-6px, 8px) rotate(-2deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes Watching {
+    0%  {transform: translateX(0px);}
+    25% {transform: translateX(10px) translateY(-20px);}
+    50% {transform: translateX(-30px) translateY(0px);}
+    75% {transform: translateX(-25px) translateY(5px);}
+    100% {transform: translateX(0px);}
+}

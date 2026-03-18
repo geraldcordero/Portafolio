@@ -1,10 +1,13 @@
-:root{
-    --black: #1F1F1F;
-    --white: #FCFCFC;
-    --decoration: #:
+:root {
 
-    --titulo1: 80px;
-    --titulo2: 48px;
-    --text: 20px;
-    --textN: 15px;
+    --black: #1F1F1F;
+    --deepblack: #111111;
+    --white: #FCFCFC;
+    --whiteactive: #929292;
+    --whitehover: #bdbdbd;
+    /* --decoration: #: */
+    --text: 16px;
+    --textN: 14px;
+    --title1: 64px;
+    --title2: 40px;
 }

@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--black);
-    padding: 0px 125px;
+    background-color: var(--deepblack);
+    padding: 0px 80px;
 }
