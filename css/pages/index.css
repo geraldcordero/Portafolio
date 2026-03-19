@@ -1,4 +1,8 @@
 /* HOME SECTION */
+*{
+    position: relative;
+}
+
 .home {
     display: flex;
     margin-bottom: 250px;
@@ -118,10 +122,11 @@
 }
 
 .aboutme__container{
-    background-color: var(--black);
+    background-color: var(--deepblack);
     border-radius: 20px;
     border: var(--white) 1px solid;
     padding: 40px 80px;
+    width: 100%;
 }
 
 .aboutme__text{
@@ -129,3 +134,5 @@
     font-family: Lato;
     font-size: var(--text);
 }
+
+/* Projects Section */
