@@ -5,7 +5,7 @@
 
 .home {
     display: flex;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
 }
 
 .home__info {
@@ -21,7 +21,7 @@
 
 .home__text {
     margin-bottom: 10px;
-    color: var(--white);
+    color: var(--lightgray);
     font-family: Lato;
     font-size: var(--text);
 }
@@ -44,13 +44,15 @@
 }
 
 .home__button:hover {
-    background-color: var(--whitehover);
+    background-color: var(--lightgray);
+    border: solid 2px var(--white);
+    box-shadow: 0px 0px 10px var(--green), inset 0px 0px 10px var(--green);
     scale: 0.99;
     transition: ease-in-out 0.5s;
 }
 
 .home__button:active {
-    background-color: var(--whiteactive);
+    background-color: var(--grey);
     scale: 0.8;
 }
 
@@ -92,6 +94,7 @@
 .home__img-eye:hover {
     animation: Rotate 2s infinite;
     cursor: pointer;
+    filter: drop-shadow(0px 0px 10px var(--green));
 }
 
 /* Eye Animation */
@@ -110,7 +113,7 @@
 
 /* AboutMe Section */
 .aboutme{
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 .aboutme__title{
@@ -122,17 +125,115 @@
 }
 
 .aboutme__container{
-    background-color: var(--deepblack);
     border-radius: 20px;
-    border: var(--white) 1px solid;
+    border: var(--white) 0.5px solid;
     padding: 40px 80px;
     width: 100%;
 }
 
 .aboutme__text{
-    color: var(--white);
+    color: var(--lightgray);
     font-family: Lato;
     font-size: var(--text);
 }
 
 /* Projects Section */
+.projects{
+    margin-bottom: 250px;
+}
+
+.projects__title{
+    color: var(--white);
+    font-family: UnifrakturMaguntia;
+    font-size: var(--title2);
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.projects__card{
+    /* background-color: var(--deepblack); */
+    border-radius: 20px;
+    border: var(--white) 0.5px solid;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.projects__img{
+    border-radius: 20px;
+    border: var(--white) 0.5px solid;
+    height: 100%;
+    width: 50%;
+}
+
+.projects__container{
+    padding: 80px 5% 0px 5%;
+}
+
+.projects__second-title{
+    color: var(--white);
+    font-family: UnifrakturMaguntia;
+    font-size: var(--title2);
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.projects__text{
+    color: var(--lightgray);
+    font-family: Lato;
+    font-size: var(--text);
+    margin-bottom: 20px;
+}
+
+.projects__icons{
+    display: flex;
+    gap: 40px;
+}
+
+.projects__icon{
+    height: 40px;
+    width: 40px;
+}
+
+/* Stack Section */
+.stack{
+    margin-bottom: 250px;
+}
+
+.stack__title{
+    color: var(--white);
+    font-family: UnifrakturMaguntia;
+    font-size: var(--title2);
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.stack__subtitle{
+    color: var(--grey);
+    font-family: Lato;
+    font-size: var(--subtitle);
+    margin-bottom: 30px;
+}
+
+.stack__container{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.stack__technology{
+    text-align: center;
+}
+
+.stack__icon{
+    height: 40px;
+    width: 40px;
+}
+
+.stack__text{
+    color: var(--white);
+    font-family: Lato;
+    font-size: var(--text);
+    font-weight: 900;
+    margin-bottom: 20px;
+}

@@ -22,12 +22,12 @@
 }
 
 .header__link:hover {
-    color: var(--whitehover);
-    text-decoration: underline 2px var(--whitehover);
+    color: var(--lightgray);
+    text-decoration: underline 1px var(--lightgray);
     transition: ease-in-out 0.1s;
 }
 
 .header__link:active {
-    color: var(--whiteactive);
+    color: var(--grey);
     transition: ease-in-out 0.1s;
 }

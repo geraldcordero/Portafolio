@@ -3,11 +3,13 @@
     --black: #1F1F1F;
     --deepblack: #111111;
     --white: #FCFCFC;
-    --whiteactive: #929292;
-    --whitehover: #bdbdbd;
+    --grey: #929292;
+    --lightgray: #bdbdbd;
+    --green: #64FF35;
     /* --decoration: #: */
     --text: 16px;
     --textN: 14px;
+    --subtitle: 20px;
     --title1: 64px;
     --title2: 40px;
 }
