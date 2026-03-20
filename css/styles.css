@@ -6,4 +6,4 @@
 @import "./layout/header.css";
 
 /* Pages */
-@import "/css/pages/index.css";
+@import "./pages/index.css";
