@@ -185,7 +185,7 @@ html {
     border-radius: 20px;
     border: var(--white) 0.5px solid;
     margin-bottom: 50px;
-    min-width: 49%;
+    width: 49%;
 }
 
 .projects__container {
