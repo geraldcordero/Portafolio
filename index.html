@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/assets/icon/Ojo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/styles.css">
-    <script type="module" src="/js/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,35 +86,58 @@
 
         <section id="projects" class="projects">
             <h2 class="projects__title">Proyectos</h2>
+            <div class="prejects__cards-container">
 
-            <article class="projects__card">
-                <img class="projects__img" src="./assets/images/anhelo_dorado.png" alt="Miniatura Website">
-                <div class="projects__container">
-                    <h3 class="projects__second-title">Anhelo Dorado</h3>
-                    <p class="projects__text">Sitio web diseñado y desarrollado para un negocio de repostería artesanal,
-                        con un enfoque en estética minimalista, navegación clara y experiencia visual atractiva.</p>
-                    <div class="projects__icons">
-                        <img class="projects__icon" src="./assets/svg/html.svg" alt="html icon">
-                        <img class="projects__icon" src="./assets/svg/css3.svg" alt="css icon">
-                        <img class="projects__icon" src="./assets/svg/js.svg" alt="js icon">
+                <article class="projects__card">
+                    <div id="pj1" class="projects__container" onmouseover="switchOpstions1()">
+                        <h3 class="projects__second-title">Anhelo Dorado</h3>
+                        <p class="projects__text">Sitio web diseñado y desarrollado para un negocio de repostería
+                            artesanal,
+                            con un enfoque en estética minimalista, navegación clara y experiencia visual atractiva.</p>
+                        <div class="projects__icons">
+                            <img class="projects__icon" src="./assets/svg/html.svg" alt="html icon">
+                            <img class="projects__icon" src="./assets/svg/css3.svg" alt="css icon">
+                            <img class="projects__icon" src="./assets/svg/js.svg" alt="js icon">
+                        </div>
                     </div>
-                </div>
-            </article>
+                    <div id="pj1Options" class="projects__container-options" onmouseover="switchOpstions1()"
+                        onmouseout="switchInfo1()">
+                        <h4 class="projects__thirt-title">Options</h4>
+                        <div class="projects__button-box">
+                            <a class="projects__button" href="https://github.com/geraldcordero/Anhelo-Dorado"
+                                target="_blank"><img class="projects__icon" src="./assets/svg/github-inicio.svg"
+                                    alt="Code Button"> <span class="projects__button-text">Code</span> </a>
+                            <a class="projects__button" href="https://anhelo-dorado.netlify.app/"
+                                target="_blank"><img class="projects__icon--link" src="./assets/svg/link.svg"
+                                    alt="Code Button"> <span class="projects__button-text">Preview</span> </a>
 
-            <article class="projects__card">
-                <img class="projects__img" src="./assets/images/vibe_productios.png" alt="">
-                <div class="projects__container">
-                    <h3 class="projects__second-title">Vibe Productions</h3>
-                    <p class="projects__text">Sitio web diseñado y desarrollado para un negocio de repostería artesanal,
-                        con un enfoque en estética minimalista, navegación clara y experiencia visual atractiva.</p>
-                    <div class="projects__icons">
-                        <img class="projects__icon" src="./assets/svg/html.svg" alt="html icon">
-                        <img class="projects__icon" src="./assets/svg/css3.svg" alt="css icon">
-                        <img class="projects__icon" src="./assets/svg/js.svg" alt="js icon">
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
+                <article class="projects__card">
+                    <div id="pj2" class="projects__container" onmouseover="switchOpstions2()">
+                        <h3 class="projects__second-title">Anhelo Dorado</h3>
+                        <p class="projects__text">Sitio web diseñado y desarrollado para un negocio de repostería
+                            artesanal,
+                            con un enfoque en estética minimalista, navegación clara y experiencia visual atractiva.</p>
+                        <div class="projects__icons">
+                            <img class="projects__icon" src="./assets/svg/html.svg" alt="html icon">
+                            <img class="projects__icon" src="./assets/svg/css3.svg" alt="css icon">
+                            <img class="projects__icon" src="./assets/svg/js.svg" alt="js icon">
+                        </div>
+                    </div>
+                    <div id="pj2Options" class="projects__container-options" onmouseover="switchOpstions2()"
+                        onmouseout="switchInfo2()">
+                        <h4 class="projects__thirt-title">Options</h4>
+                        <div class="projects__button-box">
+                            <a class="projects__button" href="https://www.linkedin.com/in/gerald-cordero-17b3203b7/"
+                                target="_blank"><img class="projects__icon" src="./assets/svg/github-inicio.svg"
+                                    alt="Code Button"> <span class="projects__button-text">Code</span> </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="stack" class="stack">

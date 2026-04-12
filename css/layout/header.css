@@ -1,6 +1,8 @@
 .header {
     display: flex;
     justify-content: end;
+    position: sticky;
+    top: 5px;
 }
 
 .header__nav {
