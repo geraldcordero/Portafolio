@@ -29,6 +29,7 @@ html {
     color: var(--lightgray);
     font-family: Lato;
     font-size: var(--text);
+    margin-bottom: 15px;
 }
 
 .home__button-box {
@@ -135,6 +136,32 @@ html {
     }
 }
 
+@media screen and (max-width: 700px) {
+
+    .home__button {
+        border-radius: 15px;
+        height: 40px;
+        width: 80px;
+    }
+
+    .home__button--cv {
+        color: var(--black);
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    .home__icon {
+        width: 35px;
+    }
+
+    .home__img-eyelid,
+    .home__img-eye {
+        display: none;
+    }
+}
+
 /* AboutMe Section */
 .aboutme {
     margin-bottom: 175px;
@@ -161,6 +188,15 @@ html {
     font-size: var(--text);
 }
 
+@media screen and (max-width: 700px) {
+    .aboutme__container {
+        border-radius: 20px;
+        border: var(--white) 0.5px solid;
+        padding: 40px 40px;
+        width: 100%;
+    }
+}
+
 /* Projects Section */
 .projects {
     margin-bottom: 175px;
@@ -174,7 +210,7 @@ html {
     margin-bottom: 40px;
 }
 
-.prejects__cards-container{
+.prejects__cards-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
@@ -198,7 +234,7 @@ html {
     font-family: UnifrakturMaguntia;
     font-size: var(--title3);
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -206,14 +242,14 @@ html {
     color: var(--lightgray);
     font-family: Lato;
     font-size: var(--text);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 0% 5%;
     text-align: center;
 }
 
 .projects__icons {
     display: flex;
-    gap: 40px;
+    gap: 25px;
     justify-content: center;
 }
 
@@ -247,8 +283,10 @@ html {
 
 .projects__button-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 0% 10%;
 }
 
 .projects__button {
@@ -264,7 +302,7 @@ html {
     width: 100px;
 }
 
-.projects__button-text{
+.projects__button-text {
     color: var(--black);
     font-family: Lato;
     font-size: var(--textN);
@@ -297,9 +335,25 @@ html {
     width: 40px;
 }
 
-.projects__icon--link{
+.projects__icon--link {
     width: 25px;
     margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .projects__card {
+        width: 100%;
+    }
+
+    .projects__container {
+        padding: 40px 2% 40px 2%;
+        z-index: 2;
+    }
+
+    .projects__icon {
+        height: 35px;
+        width: 35px;
+    }
 }
 
 /* Stack Section */
@@ -324,6 +378,7 @@ html {
 
 .stack__container {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 30px;
 }
@@ -345,4 +400,24 @@ html {
     font-size: var(--text);
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .stack__container {
+        gap: 35px;
+        margin-bottom: 40px;
+    }
+
+    .stack__icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .stack__text {
+        color: var(--white);
+        font-family: Lato;
+        font-size: var(--text);
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
 }
