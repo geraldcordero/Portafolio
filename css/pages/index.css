@@ -63,6 +63,9 @@ html {
     border: none;
 }
 
+.home__button:focus{
+    outline: none;
+}
 
 .home__button--cv {
     color: var(--black);
@@ -331,6 +334,9 @@ html {
     scale: 0.8;
 }
 
+.projects__button:focus {
+    outline: none;
+}
 
 .projects__button--preview {
     color: var(--black);
