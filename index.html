@@ -10,11 +10,14 @@
 
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/34c2e8213b.js" crossorigin="anonymous" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet">
 
 
 
@@ -24,8 +27,13 @@
 <body>
 
     <header class="header">
+
         <nav class="header__nav">
+            <button class="header__open"><i class="fa-solid fa-bars fa-xl header__icon header__icon--bars"
+                    style="color: rgb(255, 255, 255);"></i></button>
             <ul class="header__list">
+                <button class="header__close"><i class="fa-solid fa-xmark fa-xl header__icon header__icon--xmark"
+                        style="color: rgb(255, 255, 255);"></i></button>
                 <li class="header__item"><a class="header__link" href="#home">INICIO</a></li>
                 <li class="header__item"><a class="header__link" href="#aboutme">SOBRE MI</a></li>
                 <li class="header__item"><a class="header__link" href="#projects">PROYECTOS</a></li>
