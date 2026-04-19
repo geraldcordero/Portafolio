@@ -9,7 +9,6 @@
 .header__open,
 .header__close {
     display: none;
-    background-color: red;
 }
 
 .header__list {
@@ -58,7 +57,7 @@
 
     .header__open {
         display: block;
-        /* background-color: rgba(255, 255, 255, 0.090); */
+        background-color: rgba(255, 255, 255, 0.090);
         backdrop-filter: blur(10px);
         border: none;
         margin-top: 35px;
@@ -103,7 +102,7 @@
 
     .header__close {
         display: block;
-        /* background-color: transparent; */
+        background-color: transparent;
         backdrop-filter: blur(0px);
         border: none;
         padding: 15px;
