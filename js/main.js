@@ -20,3 +20,17 @@ function switchInfo2() {
     container2.style.zIndex=2;
     containerOp2.style.display='none';
 }
+
+const open = document.getElementById("open");
+const close = document.getElementById("close");
+const nav = document.getElementById("nav");
+
+open.addEventListener('click', () => {
+    nav.classList.add('header__list--visible');
+    nav.classList.remove('header__list--hidden');
+});
+
+close.addEventListener('click', () => {
+    nav.classList.remove('header__list--visible');
+    nav.classList.add('header__list--hidden');
+});
